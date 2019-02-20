@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Static Comp 2</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body class="grid-box">
+    <aside class="side-bar flex-box sidebar-container">
+      <section class="side-bar side-bar-one">
+      <img src="./images/Ek-finn.jpg" alt="Photo of Erik and Finn" class="profile-style">
+      <p class="label-style">Erik Konner <i class="fas fa-caret-down"></i></p>
+      </section>
+      <section class="side-bar">
+        <h4 class="title-style">Main</h4>
+        <ul class="side-bar-size size-bar-spacing">
+          <li><i class="fas fa-home"></i>Home</li>
+          <li><i class="fas fa-box"></i>Jobs</li>
+          <li><i class="fas fa-scroll"></i>Resumes</li>
+          <li><i class="fas fa-clipboard-list"></i>Tasks</li>
+          <li><i class="fas fa-calendar-alt"></i>Calendar</li>
+        </ul>
+      </section>
+      <section class="side-bar side-bar-spacing">
+        <h4 class="title-style">Admin</h4>
+        <ul class="side-bar-size side-bar-spacing">
+          <li><i class="fas fa-users"></i>Users</li>
+          <li><i class="fas fa-map-marker-alt"></i>Locations</li>
+          <li><i class="fas fa-network-wired"></i>Workflows</li>
+          <li><i class="fas fa-file-invoice"></i>Job Boards</li>
+          <li><i class="fab fa-github"></i>Social</li>
+        </ul>
+      </section>
+      <section class="side-bar">
+        <h4 class="title-style">Categories</h4>
+        <ul class="side-bar-size size-bar-spacing">
+          <li><i class="fab fa-amazon"></i>Administrative</li>
+          <li><i class="fab fa-apple"></i>Design</li>
+          <li><i class="fab fa-btc"></i>Executive</li>
+          <li><i class="fab fa-cc-amex"></i>Human Resorces</li>
+        </ul>
+      </section>
+    </aside>
+    <nav class="nav-style">
+      <section class="hamberger-box">
+        <i class="fas fa-caret-left search-icons"></i><i class="fas fa-bars search-icons"></i>
+        <i class="fas fa-search search-icons"></i>
+      </section>
+
+        <input type="text" class="search-input"name="Search" placeholder="Search for job, task, or reume">
+    </nav>
+    <section class="nav-btns">
+        <button type="button" name="username"><i class="fas fa-user-plus"></i></button>
+        <button type="button" name="calendar"><i class="fas fa-calendar-plus"></i></button>
+        <button type="button" name="grid"><i class="fas fa-th"></i></button>
+    </section>
+      <header>
+        <section class="header-style">
+          <h1 class="h1-spacing">Customer Service </h1>
+          <p class="inline-display "><i class="fas fa-map-marker-alt"></i>Denver, CO</p><a class="p-spacing"href="#">Preview This Post</a>
+        </section>
+        <ul class"menu-spacing">
+          <li class="inline-display menu-style">Summary</li>
+          <li class="inline-display menu-style">Applicants</li>
+          <li class="inline-display menu-style">Job Board</li>
+          <li class="inline-display menu-style">Interviews</li>
+          <li class="inline-display menu-style">Activity</li>
+          <li class="inline-display menu-style">Broadcast</li>
+          <li class="inline-display menu-style">Notifications</li>
+        </ul>
+      </header>
+      <section class="header-btns">
+        <button type="button" name="button">Open</button>
+        <button type="button" name="button"><i class="fas fa-bookmark"></i></button>
+        <button type="button" name="button"><i class="fas fa-pencil-alt"></i></button>
+        <button type="button" name="button"><i class="fas fa-trash-alt"></i></button>
+      </section>
+        <article class="svg-box">
+          <svg viewBox="0 0 36 36" class="circular-chart orange">
+          <path class="circle-bg"
+            d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"/>
+       <path class="circle"
+         stroke-dasharray="80, 100"
+         d="M18 2.0845
+           a 15.9155 15.9155 0 0 1 0 31.831
+           a 15.9155 15.9155 0 0 1 0 -31.831"/>
+       <text x="18" y="20.35" class="percentage">4,000 Applicants</text>
+     </svg>
+     <svg viewBox="0 0 36 36" class="circular-chart green">
+        <path class="circle-bg"
+            d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"/>
+        <path class="circle"
+          stroke-dasharray="60, 100"
+          d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"/>
+        <text x="18" y="20.35" class="percentage">2,000 Interviews</text>
+      </svg>
+      <svg viewBox="0 0 36 36" class="circular-chart blue">
+        <path class="circle-bg"
+          d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"/>
+        <path class="circle"
+          stroke-dasharray="20, 100"
+          d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"/>
+        <text x="18" y="20.35" class="percentage">400 Forwards</text>
+      </svg>
+      </section>
+    </article>
+      <section class="graph-position">
+        <img  class="graph-style"src="./images/chart.jpeg" alt="Bar Chart">
+      </section>
+      </article>
+        <article class="article-content-style">
+          <section>
+            <h3>Job Description</h3>
+            <button type="button" name="button"><i class="fas fa-pencil-alt"></i>Edit</button>
+          </section>
+          <section class="">
+            <h3>Position Title</h3>
+            <p>Customer Service Representative</p>
+          </section>
+          <section class="">
+            <h3>Location</h3>
+            <p>Denver, CO</p>
+          </section>
+          <section class="">
+            <h3>Employment Type</h3>
+            <p>Full Time</p>
+          </section>
+          <section>
+            <h3>Experience</h3>
+            <p>Exceptional</p>
+          </section>
+        </article>
+         <aside class="aside-left">
+          <button type="button" name="button" class="facebook btn-left"><i class="fab fa-facebook-f"></i>Post to Facebook</button>
+          <button type="button" name="button"class="twitter btn-left"><i class="fab fa-twitter"></i>Tweet this Job</button>
+          <button type="button" name="button" class="linkedin btn-left"><i class="fab fa-linkedin"></i>Post to Linkedin</button>
+          <section>
+            <h2><i class="fas fa-globe-americas"></i>Link to this Job</h2>
+            <p class="caption-style">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <input type="text" name="link" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"> <button type="button" name="button" class="copy-btn">Copy</button>
+          </section>
+          <section>
+            <h2><i class="fas fa-newspaper"></i>Use this Button Widget</h2>
+            <p class="caption-style">This widget embeds the buttons and sharing and all the other things</p>
+            <input type="text" name="script" placeholder="<script type = text/javascript:s..."> <button type="button" name="button" class="copy-btn">Copy</button>
+          </section>
+          <section>
+            <h2>Upload Resumes by Email</h2>
+            <p>You can automatically upload multiple resumes to this job by emailing the address below</p>
+            <input type="text" name="email" value="erikkonner@gmail.com">
+          </section>
+        </aside>
+  </body>
+</html>
